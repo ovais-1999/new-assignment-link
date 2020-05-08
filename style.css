@@ -1,0 +1,17 @@
+.header{
+  background-color: rgb(28, 28, 221);
+}
+h1,h4,h5{
+     text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+} 
+.onecard, .twocard, .threecard{
+    text-align: center;
+   
+}
+.brow{
+    margin-left: 5px;
+}

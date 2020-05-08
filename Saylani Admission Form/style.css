@@ -1,0 +1,121 @@
+h1{
+    text-align: center;
+color: blueviolet;
+}
+div{
+width: 50%;
+margin: 1% 25% 1% 30% ;
+}
+#firstname{
+    margin-left: 100px;
+}
+#lastname{
+    margin-left: 100px;
+}
+#emailid{
+    margin-left: 115px;
+}
+#dateofbirth{
+    margin-left: 85px;
+}
+#mobilenumber{
+    margin-left: 65px;
+}
+#male{
+    margin-left: 120px;
+}
+#address{
+    margin-left: 111px;
+}
+span#Adress{
+    position: relative;
+    bottom: 40px;
+}
+#city{
+    margin-left: 140px;
+}
+#pincode{
+    margin-left: 100px;
+}
+#state{
+    margin-left: 130px;
+}
+#country{
+    margin-left: 110px;
+}
+span.sps{
+    margin-left: 107px;
+}
+span.others{
+    margin-left: 163px;
+}
+table{
+    margin-left: 160px;
+}
+span#cit{
+    margin-left: 80px;
+
+}
+form{
+   
+    background-color: rgb(168, 82, 248);
+    border: black;
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+    margin: 1% 10% 1% 10% ;
+
+
+}
+input[type="submit"] {
+    padding: 5px;
+    
+    
+}
+input[type="reset"] {
+    margin-inline-start: 40px;
+}
+h4{
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left: 560px;
+    margin-right: auto;
+    width: 50%;
+}
+.text{
+    text-align: center;
+    color: darkorchid;
+    font-size: 30px;
+}
+.linkcenter{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+.done{
+
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+
+    
+      
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

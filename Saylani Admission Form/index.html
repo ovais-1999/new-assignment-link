@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>saylani form Created By WM#6008 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container-fluid">
+   
+   
+        <div >
+        <img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" alt="">
+    </div><hr>
+    <h1>Students Registration Form</h1>
+    <h4>Roll Number#WM6008</h4> <hr>
+    <form action="submit.html">
+    <tr>
+        <label for="firstname"> First Name </label> <span> <input type="text" name="firstname" size="20" maxlength="30" placeholder="Enter Your Name" id="firstname"></span>
+    </tr> <br> <br>
+    <tr>
+       <label for="lastname"> Last Name</label>
+        <span> <input type="text" name="lastname" size="20" maxlength="30"  placeholder="Enter Your Last Name" id="lastname"></span>
+    </tr> <br> <br>
+    <tr>
+        <label for="emailid"> Email ID </label> <span> <input type="email" name="emailid" size="20" placeholder="Enter Email Address" id="emailid"></span>
+    </tr> <br><br>
+    <tr>
+        <label for="dateofbirth"> Date of Birth </label> <span> <input type="date" size="20" name="dateofbirth" id="dateofbirth"></span>
+    </tr> <br> <br>
+    <tr>
+        <label for="mobilenumber"> Mobile Number </label> <span> <input type="tel"  name="mobilenumber" maxlength="10" placeholder="Enter Mobile Number" id="mobilenumber">(10 Digits Only)</span>
+    </tr> <br><br>
+    <tr>
+        <td>Gender</td>
+         <span id="male"> <label for="Male">  Male </label> <input type="radio" name="gender" value="male" id="Male"></span>
+        <span> <label for="Female"> Female </label> <input type="radio" name="gender" value="female" id="Female"></span>
+    </tr> <br><br>
+    <tr>
+        <span id="Adress"> <label for="adress"> Address </label> </span> <span id="address"><textarea name="address"  placeholder="Enter your address" id="adress" cols="30" rows="5"></textarea></span>
+    </tr> <br> <br>
+    <tr>
+        <span> <label for="city">City</label> </span> <span> <input type="text" name="city" id="city" maxlength="30" size="20" placeholder="Enter City Name"> (Maximum 30 Characters a-z and A-Z)</span>
+    </tr> <br> <br>
+    <tr>
+        <span> <label for="pincode"> PIN Code </label></span> <span> <input type="text" name="pincode" id="pincode" size="20" maxlength="6" placeholder="Enter PIN Code"> (6 Digits Only)</span>
+    </tr> <br> <br>
+<tr>
+    <span>State</span> <span> <input type="text" name="state" placeholder="Enter State" id="state"> (Maximum 30 Characters a-z and A-Z)</span>
+</tr> <br> <br>
+<tr>
+    <span> <label for="country"> Country </label> </span> <span> <input type="text"  name="country" placeholder="Enter Country" id="country"></span>
+</tr> <br><br>
+<tr>
+    <span>Hobbies</span> <span class="sps"> Sports <input type="checkbox" name="hobbies" value="sports" id="sports">
+     Drawing  <input type="checkbox" name="hobbies" value="drawing" id="drawing">
+    Dancing <input type="checkbox" name="hobbies" value="dancing" id="dancing">
+     Sketching <input type="checkbox" name="hobbies" value="sketching" id="sketching">
+    </span> <br>
+    <span class="others"> Others <input type="checkbox" name="Hobbies" value="others" id="hobbies"> 
+        <input type="text" name="hobbies" id="others"></span>
+</tr> <br><br>
+
+    <span>Qualification</span>
+    <table>
+         <th>S.no Examination</th> <th>Board</th><th>Persentage</th><th>Year of Passing</th>
+        <tr> <td> 1 .Matriculation </td>
+        <td><input type="text" name="matriculation board" id=""></td>
+        <td><input type="text" name="matriculation persentage" id=""></td>
+        <td> <input type="text" name="matriculation year of passing" id=""></td> </tr>
+         <tr>   <td> 2 .Intermidiate</td>
+                 <td><input type="text" name="intermidiate board" id=""></td> 
+                 <td><input type="text" name="intermidiate persentage" id=""></td>
+                 <td><input type="text" name="intermidiate year of passing" id=""></td></tr>
+          <tr>  <td> 3 .Graduation</td>
+            <td><input type="text" name="graduation board" id=""></td>
+            <td><input type="text" name="graduation persentage" id=""></td>
+            <td><input type="text" name="graduation year of passing" id=""></td> </tr>
+         <tr>   <td> 4 .Masters</td>
+            <td><input type="text" name="masters board" id=""></td>
+            <td><input type="text" name="masters persentage" id=""></td>
+            <td><input type="text" name="masters year of passing" id=""></td> </tr>
+
+    </table>
+    <tr>
+        <td>Course<br>Applied For</td> <span id="cit"> C.I.T <input type="radio" name="course applied for" value="c.i.t" id="c.i.t"></span>
+        <span>A.D.I.T <input type="radio" name="course applied for" value="a.d.i.t" id="a.d.i.t"></span>
+        <span>Graphic Designing <input type="radio" name="course applied for" value="graphic designing" id="graphic designing"></span>
+        <span>CISCO Networking <input type="radio" name="course applied for" value="cisco networking" id="cisco networking"></span>
+    </tr> <br> <br>
+<div> <input type="submit" value="Submit"> <input type="reset" value="Reset"> </div>
+
+</form>
+</body>
+</html>
